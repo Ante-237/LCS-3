@@ -1,0 +1,9 @@
+# User puts in any random integer
+
+number = int(input("Enter an integer : "))
+
+# for the range of that number we going to print out the odd numbers.
+
+for num in range(number):
+    if num % 2 != 0:
+        print(num, end = ' ')
