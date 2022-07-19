@@ -6,7 +6,6 @@ i = 0
 while i < len(anything):
     if anything[i] in vowels:
         anything = anything.replace(anything[i], "")
-        # i += 1
         continue
 
     i += 1
