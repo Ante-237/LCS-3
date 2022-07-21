@@ -9,4 +9,3 @@ def num_sort(num, target):
         return 0
     for i in range(len(num)):
         if num[i] >= target:
-            return i
